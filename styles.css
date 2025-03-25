@@ -1,0 +1,92 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  body {
+    margin: 0;
+    background-color: #111;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    animation: fadeIn 1s ease-out;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .container {
+    border: 4px dashed #e06666;
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #1a1a1a;
+    text-align: center;
+    box-sizing: border-box;
+  
+    height: calc(100vh - 2rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .incontainer {
+    border: 4px dashed #e06666;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    animation: fadeIn 1.6s ease-out;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .welcome {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #f08080;
+    margin: 0.5rem 0;
+  }
+  
+  .squamble-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: rgba(240, 128, 128, 1);
+    margin: 0.5rem 0 1.5rem;
+  }
+  
+  .center-content {
+    margin: 1rem 0;
+  }
+  
+  .get-squamble {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f08080;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+  }
+  
+  .get-squamble span {
+    font-weight: 800;
+  }
+  
+  .bottom-link {
+    margin-top: 0.5rem;
+  }
+  
+  .how-to-use {
+    color: #f08080;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
